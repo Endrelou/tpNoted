@@ -1,0 +1,58 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "name": "Général"
+    },
+    {
+      "id": 2,
+      "name": "BDE"
+    },
+    {
+      "id": 3,
+      "name": "Vie étudiante"
+    },
+    {
+      "id": 4,
+      "name": "Programmation"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "idS": 1,
+      "content": "Test Channel 1",
+      "date": "December 17, 1995 03:24:00"
+    },
+    {
+      "id": 2,
+      "idS": 2,
+      "content": "Test Channel 2",
+      "date": "December 17, 1995 03:24:00"
+    },
+    {
+      "id": 3,
+      "idS": 3,
+      "content": "Test Channel 3",
+      "date": "December 17, 1995 03:24:00"
+    },
+    {
+      "id": 4,
+      "idS": 4,
+      "content": "Test Channel 4",
+      "date": "December 17, 1995 03:24:00"
+    },
+    {
+      "idS": 2,
+      "content": "test 5",
+      "date": "2019-12-06T11:24:55.904Z",
+      "id": 5
+    },
+    {
+      "idS": 2,
+      "content": "test 6",
+      "date": "2019-12-06T11:27:24.596Z",
+      "id": 6
+    }
+  ]
+}

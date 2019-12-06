@@ -1,0 +1,38 @@
+<app-my-channel class="col-2"  
+    *ngFor="let mychannel of channels"
+    [mychannel] = "mychannel"
+></app-my-channel>
+
+<div>
+    <message 
+        [id]="id"
+        *ngFor="let message of messages"
+        [message] = "message"
+    ></message>
+</div>
+
+<div class="col-10">
+    <div>
+        <div class="form_msg">
+            <div class="input-group mb-3">
+                <input
+                type="text"
+                [(ngModel)]="mymsg"
+                class="form-control"
+                aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                <button
+                    class="btn btn-outline-secondary"
+                    (click)="addMessage()"
+                    type="button"
+                >
+                    Envoyer
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
